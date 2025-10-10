@@ -1,0 +1,145 @@
+body{
+    background-color: #75acc2;
+    font-family:Josefin Sans, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+    color: white
+}
+p{
+    font-size: 1.25rem;
+    text-align: center;
+    color: white;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color: #634146;
+    text-decoration: underline;
+}
+
+button{
+    background-color: #75acc2;
+    
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    margin-top: 1rem;
+    width: 70%
+    
+}
+
+header > img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    display: block;
+    background-color: #D77968;
+    
+    font-size: 1.75rem;
+    border-radius: 5rem;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0.5rem;
+    
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 5rem;
+    
+}
+
+
+section{
+    display:flex;
+    margin: 2rem;
+    border-radius: 10px;
+}
+
+article{
+    flex:1;
+    text-align: center;
+    background-color: #D77968;
+    margin: 1rem;
+    border: 0.2rem solid white;
+    border-radius: 50px;
+    height:auto
+}
+
+article:hover{
+    box-shadow: 0.5rem 0.5rem 1rem #b46457;
+}
+
+article img{
+    border-radius: 50px;
+    margin-top: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+footer{
+    display: flex;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    border-top-style: solid;
+    border-top-width: 0.3rem;
+    padding-top:0.3rem;
+    border-top-color:#D77968;
+}
+
+footer div{
+    flex: 1;
+    
+}
+
+footer div p{
+    margin-top: 0.5rem;
+    text-align: left;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+#copyright>p{
+    text-align: right;
+    color:#9b6850;
+    font-weight: normal;
+    font-style:italic;
+}
+
+#promo
+{
+    height: 15rem;
+}
+
+#home{
+    color: white;
+    display: block;
+    background-image: url('halloweenhacks.jpeg');
+    background-size: cover;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+}
